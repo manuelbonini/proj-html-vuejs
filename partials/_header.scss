@@ -1,0 +1,35 @@
+.logo {
+    width: 150px;
+}
+
+header {
+    .container {
+        padding: 15px 10px;
+        @include display_flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.menu {
+    ul {
+        @include display_flex;
+    }
+}
+
+.menu {
+    li {
+        list-style-type: none;
+        padding-left: 30px;
+        font-size: 14px;
+        font-weight: 600;
+        align-self: center;
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        i {
+            color: black;
+        }
+    }
+}

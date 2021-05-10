@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="dist/app.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+    
+    <div id="root">
+
+        <header>
+            <div class="container">
+                <!-- logo -->
+                <div class="logo">
+                    <img src="img/dark-logo.png" alt="Logo">
+                </div>
+                <!-- menu -->
+                <div class="menu">
+                    <ul>
+                        <li v-for="li in liNav">
+                            <a href="#">{{ li }}</a>
+                            <i class="fas fa-chevron-down"></i>
+                        </li>
+                    </ul>
+                </div>
+                <!-- language and profile -->
+                <div class="language">
+                    <div>
+                        <img src="img/en.png" alt="">
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    </div>
+
+    <script src="dist/app.js"></script>
+</body>
+</html>
