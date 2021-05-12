@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business</title>
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="dist/app.css">
 
@@ -15,6 +18,7 @@
     
     <div id="root">
 
+        <!-- HEADER -->
         <header>
             <div class="container">
                 <!-- logo -->
@@ -25,8 +29,8 @@
                 <div class="menu">
                     <ul>
                         <li v-for="li in liNav">
-                            <a href="#">{{ li }}</a>
-                            <i class="fas fa-chevron-down"></i>
+                            {{ li }}
+                            <a href="#"><i class="fas fa-chevron-down"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -36,11 +40,101 @@
                         <img src="img/en.png" alt="">
                     </div>
                     <div>
-                        
+                        <span>English</span>
+                        <a href="#"><i class="fas fa-chevron-down"></i></a>
+                    </div>
+                    <div>
+                        <a href="#"><i class="far fa-user-circle"></i></a>
                     </div>
                 </div>
             </div>
         </header>
+
+        <!-- MAIN -->
+        <main>
+            <!-- FIRST SECTION -->
+            <section class="first">
+                <div class="container">
+                    <div class="small-container">
+                        <div class="title-container">
+                            <div class="title">
+                                <span>New Challenges, New Skills</span>
+                                <h1>BUILD YOUR OWN LIFE COACHING BUSINESS</h1>
+                                <P>Whole-Life Business Coaching for committed entrepreneurs</P>
+                                <button>Get started today</button>
+                            </div>
+                        </div>
+                        <div class="img">
+                            <img src="img/home-business-hero-avatar.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECOND SECTION -->
+            <section class="second">
+                <div class="container">
+                    <div class="small-container">
+                        <span>Let's Dream Big Together</span>
+                        <p>We are pioneers of the digital approach, using leading-edge technology to semplify procedures and apply executive coaching in the new age of digitalization.</p>
+                        <div>
+                            QUI CI VANNO I 6 TESTI
+                        </div>
+                        <div>
+                            <button><a href="#">Learn more</a></button>
+                            <button><a href="#">Get started today</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- THIRD SECTION -->
+            <section class="third">
+                <div class="container">
+                    <div class="small-container">
+                        <span>Let's Dream Big Together</span>
+                        <p>Explore How can I help you</p>
+                        <div class="box-container">
+                            <div class="box">
+                                <div>
+                                    <img src="img/home-business-service-slide-01-480x298.jpg" alt="">
+                                </div>
+                                <h3>Consultative Training</h3>
+                                <p>With a coach adressing multiple issues that are off balance, affectiong your business in varius unconsidered ways.</p>
+                                <div class="end-box">
+                                    <a href="#">Discover now <span><i class="fas fa-arrow-right"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div>
+                                    <img src="img/home-business-service-slide-02-480x298.jpg" alt="">
+                                </div>
+                                <h3>Real Deal Coaching</h3>
+                                <p>Brings an exceptionally powerful opportunity. Being able to accept, to work with that opportunity.</p>
+                                <div class="end-box">
+                                    <a href="#">Discover now <span><i class="fas fa-arrow-right"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div>
+                                    <img src="img/home-business-service-slide-03-480x298.jpg" alt="">
+                                </div>
+                                <h3>Advisor Training Program</h3>
+                                <p>Getting high quality, entrepreneur mindset driven online business coaching, is what is needed.</p>
+                                <div class="end-box">
+                                    <a href="#">Discover now <span><i class="fas fa-arrow-right"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
     </div>
 

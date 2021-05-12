@@ -9,7 +9,17 @@ img {
     width: 100%;
 }
 
+body {
+    font-family: $text_font;
+    color: $text_color;
+}
+
 .container {
     width: 85%;
+    margin: auto;
+}
+
+.small-container {
+    width: 80%;
     margin: auto;
 }
