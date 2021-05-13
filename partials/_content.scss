@@ -150,3 +150,83 @@
         }
     }
 }
+
+.fourth {
+    .container {
+        @include padding_section;
+        text-align: center;
+        span {
+            color: $button_text_color;
+            font-weight: 600;
+            font-size: 25px;
+        }
+        p {
+            font-size: 50px;
+            padding: 35px 0;
+            font-weight: 800;
+            width: 60%;
+            margin: auto;
+        }
+        .box-container {
+            @include display_flex;
+            justify-content: space-between;
+            .box {
+                width: calc((100% / 4) - 30px);
+                border-radius: 5px;
+                color: #333333;
+                text-align: left;
+                // background-image: url('../img/course-02-443x600.jpg');
+                // background-size: cover;
+                box-shadow: 0px 0px 20px -5px grey;
+                position: relative;
+                img {
+                    border-radius: 5px;
+                }
+                h3 {
+                    font-size: 23px;
+                    color: white;
+                }
+                span {
+                    padding-top: 25px;
+                }
+                p {
+                    font-size: 16px;
+                    padding: 20px 0;
+                    font-weight: 500;
+                    width: 80%;
+                    line-height: 200%;
+                    color: #81695e;
+                }
+                .text {
+                    height: 60%;
+                    padding: 30px;
+                    border-radius: 5px;
+                    position: absolute;
+                    bottom: 0;
+                    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                }
+            }
+        }
+        .end-section {
+            color: #6c6c6c;
+            font-size: 18px;
+            width: 35%;
+            font-weight: 500;
+            a {
+                color: #3b3b3b;
+                font-weight: 800;
+                padding-bottom: 5px;
+                text-decoration: none;
+                border-bottom: 1px solid #6c6c6c;
+                span {
+                    font-size: 15px;
+                    padding-left: 5px;
+                    color: #3b3b3b;
+                }
+            }
+        }
+    }
+}

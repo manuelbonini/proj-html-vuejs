@@ -252,3 +252,80 @@ header .container {
   width: 15px;
   background-color: #282935;
 }
+
+.fourth .container {
+  padding: 100px 0;
+  text-align: center;
+}
+.fourth .container span {
+  color: #20ad96;
+  font-weight: 600;
+  font-size: 25px;
+}
+.fourth .container p {
+  font-size: 50px;
+  padding: 35px 0;
+  font-weight: 800;
+  width: 60%;
+  margin: auto;
+}
+.fourth .container .box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fourth .container .box-container .box {
+  width: calc((100% / 4) - 30px);
+  border-radius: 5px;
+  color: #333333;
+  text-align: left;
+  box-shadow: 0px 0px 20px -5px grey;
+  position: relative;
+}
+.fourth .container .box-container .box img {
+  border-radius: 5px;
+}
+.fourth .container .box-container .box h3 {
+  font-size: 23px;
+  color: white;
+}
+.fourth .container .box-container .box span {
+  padding-top: 25px;
+}
+.fourth .container .box-container .box p {
+  font-size: 16px;
+  padding: 20px 0;
+  font-weight: 500;
+  width: 80%;
+  line-height: 200%;
+  color: #81695e;
+}
+.fourth .container .box-container .box .text {
+  height: 60%;
+  padding: 30px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), black);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.fourth .container .end-section {
+  color: #6c6c6c;
+  font-size: 18px;
+  width: 35%;
+  font-weight: 500;
+}
+.fourth .container .end-section a {
+  color: #3b3b3b;
+  font-weight: 800;
+  padding-bottom: 5px;
+  text-decoration: none;
+  border-bottom: 1px solid #6c6c6c;
+}
+.fourth .container .end-section a span {
+  font-size: 15px;
+  padding-left: 5px;
+  color: #3b3b3b;
+}
