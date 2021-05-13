@@ -9,6 +9,20 @@ var app = new Vue(
                 'Features',
                 'Blog',
                 'Shop'
+            ],
+            explore: [
+                'Start here',
+                'Blog',
+                'About us',
+                'Success story',
+                'Courses',
+                'Contact us'
+            ],
+            information: [
+                'Membership',
+                'Purchase guide',
+                'Privacy policy',
+                'Terms of service'
             ]
         },
         methods: {

@@ -299,10 +299,117 @@
                                 </div>
                             </div>
                         </div>
+                        <p class="end-section">
+                            Exiceted about our event?
+                            <a href="#">View all events <span><i class="fas fa-arrow-right"></i></a>
+                        </p>
                     </div>
                 </div>
             </section>
+
+            <!-- SEVENTH SECTION -->
+            <section class="seventh">
+                <span>People are praising Maxcoach</span>
+                <p>What make they love us?</p>
+                <div class="slider">
+                    <div class="slider-box">
+                        <h3>It's a choice of quality for people with special needs</h3>
+                        <p>I'm a very strict person so I require everything to be organized and neat. Then, I'll be able to make things right and shine. MaxCoach guys just got me.</p>
+                        <div class="end-slider">
+                            <div class="slider-img">
+                                <img src="img/testimonial-avata-03.jpg" alt="">
+                            </div>
+                            <div class="slider-text">
+                                <h4>FLORENCE THEMES</h4>
+                                <span>/Multimedia Admin</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-box">
+                        <h3>High level of efficiency and scientific teaching methods</h3>
+                        <p>I am free to learn  at my own pace, follow my own schedule and choose the subject I want to learn from the syllabus. Great study portal for people like me.</p>
+                        <div class="end-slider">
+                            <div class="slider-img">
+                                <img src="img/testimonial-avata-02.jpg" alt="">
+                            </div>
+                            <div class="slider-text">
+                                <h4>MINA HOLLACE</h4>
+                                <span>/Freelancer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-box">
+                        <h3>Professional team of specialists and passionate mentors at reach</h3>
+                        <p>I need to get a certification for English proficiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.</p>
+                        <div class="end-slider">
+                            <div class="slider-img">
+                                <img src="img/testimonial-avata-01.jpg" alt="">
+                            </div>
+                            <div class="slider-text">
+                                <h4>MADLEY PONDOR</h4>
+                                <span>/IT Specialist</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="circles">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </section>
+
+            <!-- EIGHTH SECTION -->
+            <section class="eighth">
+                <h2>Subscribe <span>Newsletters</span></h2>
+                <p>Enter your email adress to register to our newsletter subscription delivered on a regular basis!</p>
+                <div class="input">
+                    <input type="text" placeholder="Enter your email">
+                    <button><a href="#">Subscribe</a></button>
+                </div>
+                <div class="maxcoach">
+                    <img src="img/maxcoach-shape-02.png" alt="">
+                </div>
+                <div class="maxcoach-pattern">
+                    <img src="img/maxcoach-shape-09.png" alt="">
+                </div>
+            </section>
         </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <div class="small-container">
+                    <div class="adress">
+                        <h3>Adress</h3>
+                        <p>382 NE 191st St # 87594 Miami, FL 33179-3899</p>
+                        <p>+1(305) 547-909 (9am - Spm EST, Monday - Friday)</p>
+                        <span>support@maxcoach.com</span>
+                    </div>
+
+                    <div class="info">
+                        <div class="explore">
+                            <h3>Explore</h3>
+                            <ul>
+                                <li v-for="explore in explore">
+                                    {{ explore }}
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="information">
+                            <h3>Information</h3>
+                            <ul>
+                                <li v-for="info in information">
+                                    {{ info }}
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
     </div>
 
