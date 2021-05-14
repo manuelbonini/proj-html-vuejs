@@ -1,8 +1,9 @@
 footer {
     background-color: #323043;
     color: white;
+    @include padding_section;
+    position: relative;
     .small-container {
-        @include padding_section;
         @include display_flex;
         h3 {
             font-weight: 800;
@@ -12,6 +13,13 @@ footer {
         .adress {
             width: 50%;
             line-height: 200%;
+            .icons {
+                font-size: 35px;
+                padding-top: 20px;
+                i {
+                    padding-right: 30px;
+                }
+            }
         }
         .info {
             width: 50%;
@@ -36,5 +44,11 @@ footer {
                 }
             }
         }
+    }
+    .rights {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
     }
 }

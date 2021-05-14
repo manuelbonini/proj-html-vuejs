@@ -106,14 +106,14 @@ header .container {
 .first .small-container .title-container .title span {
   color: #20ad96;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 30px;
 }
 .first .small-container .title-container .title h1 {
-  font-size: 50px;
+  font-size: 65px;
   padding: 20px 0;
 }
 .first .small-container .title-container .title p {
-  font-size: 20px;
+  font-size: 25px;
   padding-bottom: 20px;
 }
 .first .small-container .title-container .title button {
@@ -124,6 +124,10 @@ header .container {
   border-radius: 5px;
   width: 180px;
   color: white;
+  font-size: 14px;
+}
+.first .small-container .title-container .title button:hover {
+  background-color: #282935;
 }
 .first .small-container .img {
   width: 50%;
@@ -145,11 +149,29 @@ header .container {
   font-size: 25px;
 }
 .second .small-container p {
-  font-size: 33px;
+  font-size: 35px;
   padding: 35px 0;
   font-weight: 700;
   width: 60%;
   margin: auto;
+}
+.second .small-container .text-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.second .small-container .text-boxes .text-box {
+  width: calc((80% / 3) - 30px);
+  text-align: left;
+}
+.second .small-container .text-boxes .text-box h3 {
+  font-size: 30px;
+}
+.second .small-container .text-boxes .text-box p {
+  font-size: 20px;
+  margin: 0;
+  width: 100%;
 }
 .second .small-container button {
   background-color: #20ad96;
@@ -159,10 +181,13 @@ header .container {
   border-radius: 5px;
   width: 180px;
   margin-left: 20px;
+  width: 200px;
+  padding: 20px 0;
 }
 .second .small-container button a {
   color: white;
   text-decoration: none;
+  font-size: 14px;
 }
 .second .small-container button:first-child {
   background-color: white;
@@ -171,6 +196,12 @@ header .container {
 }
 .second .small-container button:first-child a {
   color: #20ad96;
+}
+.second .small-container button:hover {
+  background-color: #282935;
+}
+.second .small-container button:hover a {
+  color: white;
 }
 
 .third {
@@ -212,7 +243,7 @@ header .container {
   padding-top: 25px;
 }
 .third .small-container .box-container .box p {
-  font-size: 16px;
+  font-size: 20px;
   padding: 20px 0;
   font-weight: 500;
   width: 80%;
@@ -222,7 +253,7 @@ header .container {
 .third .small-container .box-container .box .end-box {
   border-top: 1px solid #eeeeee;
   padding: 15px 0;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 800;
 }
 .third .small-container .box-container .box .end-box a {
@@ -232,6 +263,15 @@ header .container {
 .third .small-container .box-container .box .end-box a span {
   font-size: 10px;
   padding-left: 5px;
+}
+.third .small-container .box-container .box .end-box:hover {
+  background-color: #20ad96;
+}
+.third .small-container .box-container .box .end-box:hover a {
+  color: white;
+}
+.third .small-container .box-container .box .end-box:hover a span {
+  color: white;
 }
 .third .small-container .circles {
   display: flex;
@@ -260,7 +300,7 @@ header .container {
 .fourth .container span {
   color: #20ad96;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 32px;
 }
 .fourth .container p {
   font-size: 50px;
@@ -286,7 +326,7 @@ header .container {
   border-radius: 5px;
 }
 .fourth .container .box-container .box h3 {
-  font-size: 23px;
+  font-size: 30px;
   color: white;
 }
 .fourth .container .box-container .box span {
@@ -389,8 +429,9 @@ header .container {
 }
 .fifth .container .paragraph .par-container ul li p {
   padding-top: 20px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
+  line-height: 200%;
 }
 .fifth .container .paragraph .par-container ul li:first-child span, .fifth .container .paragraph .par-container ul li:first-child h3 {
   color: #20ad96;
@@ -430,6 +471,7 @@ header .container {
   display: flex;
   flex-direction: row;
   padding: 20px;
+  border-radius: 5px;
 }
 .sixth .container .events-box .events .event .info {
   flex-grow: 1;
@@ -464,6 +506,13 @@ header .container {
   color: white;
   text-decoration: none;
 }
+.sixth .container .events-box .events .event .date button:hover {
+  background-color: #282935;
+}
+.sixth .container .events-box .events .event:hover {
+  border-left: 5px solid #20ad96;
+  background-color: white;
+}
 .sixth .container .end-section {
   color: #6c6c6c;
   font-size: 18px;
@@ -486,7 +535,7 @@ header .container {
 .seventh {
   padding: 100px 0;
   text-align: center;
-  background-color: #f8f8f8;
+  background-color: #efefef;
 }
 .seventh span {
   color: #20ad96;
@@ -543,6 +592,9 @@ header .container {
 .seventh .slider .slider-box .end-slider .slider-text span {
   font-size: 17px;
   color: #7e7e7e;
+}
+.seventh .slider .slider-box:first-child, .seventh .slider .slider-box:last-child {
+  background: #f5f5f5;
 }
 .seventh .circles {
   display: flex;
@@ -628,9 +680,10 @@ header .container {
 footer {
   background-color: #323043;
   color: white;
+  padding: 100px 0;
+  position: relative;
 }
 footer .small-container {
-  padding: 100px 0;
   display: flex;
   flex-direction: row;
 }
@@ -642,6 +695,13 @@ footer .small-container h3 {
 footer .small-container .adress {
   width: 50%;
   line-height: 200%;
+}
+footer .small-container .adress .icons {
+  font-size: 35px;
+  padding-top: 20px;
+}
+footer .small-container .adress .icons i {
+  padding-right: 30px;
 }
 footer .small-container .info {
   width: 50%;
@@ -667,4 +727,10 @@ footer .small-container .info .information li {
   list-style-type: none;
   padding-bottom: 20px;
   color: #bcbcbc;
+}
+footer .rights {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
 }
